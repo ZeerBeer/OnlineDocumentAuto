@@ -3,7 +3,7 @@ const readline = require('readline');
 
 
 
-const UserInfos = ['宋文暄', '15536920810',];
+const UserInfos = ['填入姓名', '填入电话',];
 const Driver = new Builder().forBrowser('chrome').build();
 
 
@@ -61,7 +61,7 @@ async function initKeyPosition(n) {
 
 
 
-    await Driver.get('https://docs.qq.com/sheet/DS0VJckVhWlBLcWtD');
+    await Driver.get('https://docs.qq.com/sheet/文档地址');
     await userInput('扫码登录');
 
 	
